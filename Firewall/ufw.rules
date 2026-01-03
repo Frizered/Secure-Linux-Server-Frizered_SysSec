@@ -1,0 +1,6 @@
+########################
+Default deny incoming
+Default allow outgoing
+Allow OpenSSH
+Limit SSH
+########################
