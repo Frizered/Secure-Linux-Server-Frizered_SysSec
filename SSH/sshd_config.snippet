@@ -1,9 +1,7 @@
 ############################
-[sshd]
-enabled = true
-backend = systemd
-logpath = %(sshd_log)s
-maxretry = 5
-findtime = 10m
-bantime = 1h
+PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes
+X11Forwarding no
+AllowUsers ***
 ############################
